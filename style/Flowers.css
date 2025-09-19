@@ -1,0 +1,141 @@
+/* utility first shared style*/
+.text-color00{
+    color:rgba(37, 36, 50, 1);
+    
+}
+.text-color01{
+    color: rgba(137, 135, 161, 1);
+}
+.text-color02{
+    color: rgba(233, 90, 8, 1);
+}
+.text-color03{
+    color: rgba(0, 0, 0, 0.5);
+}
+.text-color-04{
+    color: rgba(0, 0, 0, 1);
+}
+
+/* header style start */
+header{
+    max-width: 1140px;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 33px;
+}
+.bold{
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    gap: 48px;  
+}
+nav li {
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+/* banner style start */
+
+.alawayes-fresh-flower-section{
+    max-width: 1140px;
+    max-height: 461px;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+}
+.alawayes-fresh-flower-textdiv{
+    max-width: 570px;
+    max-height:299px;
+    margin-top:162px;
+}
+.alawayes-fresh-flower-title{
+    font-size:4.01rem;
+    margin: 5px;
+}
+.alawayes-fresh-flower-parahgrap{
+    font-size: 1.5rem;
+    padding-right:7%;
+    padding-left:1%;
+}
+.alawayes-fresh-flower-img{
+    max-width:570px;
+    max-height: 355px;
+    margin-top: 106px;
+}
+
+/* Our Plants style start*/
+.Our-Plants-section{
+    max-width: 1140px;
+    height: 1186px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.Our-Plants-text-container{
+    max-width:1140px;
+    max-height: 139px;
+    text-align: center;
+    margin-bottom:49px;
+    justify-items: center;
+    
+}
+
+.Our-Plants-section-title{
+    max-width: 888px;
+    font-size:4rem;
+    margin: 0px;
+    margin-bottom:16px;
+}
+
+.Our-Plants-section-parahgrap{
+    font-size:1.6rem;
+    padding: 0px 126px;
+    margin: 0px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:30px 20px;
+}
+
+.Our-Plants-cards-img{
+    max-width:270px;
+    max-height:333px;
+    margin-bottom:13px;
+}
+.card{
+    max-width:270px;
+    height:485px;
+}
+
+.Our-Plants-cards-text-btn-container{
+    max-width:270px;
+    height:132px;
+    text-align: center;
+    margin-top:13px;
+}
+
+.text-Lily-Blossom{
+    font-size:1.4rem;
+    margin: 0px;
+}
+.text-20-USD{
+    font-size:1.4rem;
+    margin-top: 5%;
+    margin-bottom:0px;
+}
+.Our-Plants-cards-btn{
+    padding:19px 81px;
+    border: none;
+    background-color: rgba(233, 90, 8, 1);
+    font-size:1rem;
+    color: white;
+    margin-top:19px;
+}
