@@ -139,3 +139,47 @@ nav ul a{
     color: white;
     margin-top:19px;
 }
+
+/* Flower-&-Plants-Lover style */
+.Flower-and-Plants-Lover-container{
+    max-width:1140px;
+    height: 597px;
+    margin:auto;
+    margin-top:212px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.image-badge{
+    max-width: 286px;
+    max-height: 286px;
+    z-index: 12;
+   margin-left:-18%;
+   margin-right:-4%;
+   margin-top:-50%;
+}
+.image-badge img {
+    width: 100%;
+}
+.Flower-and-Plants-Lover-img-container{
+    max-width:540px;
+    max-height:597px;
+}
+.badge-background-img img{
+    width:100%;
+}
+.Flower-Plants-Lover-text-container{
+    max-width:540px;
+    max-height:535px;
+}
+.Flower-Plants-Lover-title{
+    font-size:3.2rem;
+    margin: 0px;
+}
+.Flower-Plants-Lover-title-list{
+    font-size:1.6rem ;
+    padding-left:6%;
+}
+.list-margin{
+    margin-top: 20px;
+}
