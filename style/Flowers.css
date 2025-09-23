@@ -1,3 +1,24 @@
+/* Google Font Noto serif*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Google Font Inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* utility first shared style*/
 .text-color00{
     color:rgba(37, 36, 50, 1);
@@ -55,15 +76,18 @@ nav ul a{
     max-width: 570px;
     max-height:299px;
     margin-top:162px;
+    padding: 0%;
 }
 .alawayes-fresh-flower-title{
     font-size:4.01rem;
-    margin: 5px;
+    margin:0% 0% 2% 0%;
+    font-weight: 700;
 }
 .alawayes-fresh-flower-parahgrap{
-    font-size: 1.5rem;
-    padding-right:7%;
+    font-size: 1.4rem;
+    padding-right:3%;
     padding-left:1%;
+    margin-top: 0px;
 }
 .alawayes-fresh-flower-img{
     max-width:570px;
@@ -90,15 +114,17 @@ nav ul a{
 
 .Our-Plants-section-title{
     max-width: 888px;
-    font-size:4rem;
+    font-size:3rem;
     margin: 0px;
     margin-bottom:16px;
+    font-weight: 700;
 }
 
 .Our-Plants-section-parahgrap{
-    font-size:1.6rem;
+    font-size:1.5rem;
     padding: 0px 126px;
     margin: 0px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .card-container{
@@ -127,6 +153,7 @@ nav ul a{
 .text-Lily-Blossom{
     font-size:1.4rem;
     margin: 0px;
+    font-weight: 100;
 }
 .text-20-USD{
     font-size:1.4rem;
@@ -177,9 +204,10 @@ nav ul a{
 .Flower-Plants-Lover-title{
     font-size:3.2rem;
     margin: 0px;
+    font-weight: 700;
 }
 .Flower-Plants-Lover-title-list{
-    font-size:1.6rem ;
+    font-size:1.5rem ;
     padding-left:6%;
 }
 .list-margin{
@@ -196,11 +224,12 @@ nav ul a{
 .Latest-Deals-title{
     font-size:3.01rem;
     margin: 0px;
+    font-weight:700;
 }
 .Latest-Deals-parahgrap-container{
     max-width: 888px;
     max-height: 54px;
-    font-size:1.6rem ;
+    font-size:1.5rem ;
     text-align: center;
     margin: opx;
 }
@@ -248,6 +277,7 @@ nav ul a{
 .bloom-plant-text-h2{
     margin: 0px;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 .bloom-plant-text-a{
     color: white;
@@ -279,6 +309,7 @@ nav ul a{
 .Ana-plant-text-h2{
     margin: 0px;
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 .Ana-plant-text-a{
     color: white;
@@ -337,7 +368,8 @@ z-index: 1px;
 }
 .join-the-colorful-text{
     color: white;
-    font-size:4rem;
+    font-size:3rem;
+    font-weight:700;
 }
 .email-box{
     width:644px;
@@ -371,9 +403,8 @@ z-index: 1px;
     height:82px;
 }
 .logo-parah{
-    font-size:1.6rem;
+    font-size:1.5rem;
     color: rgba(0, 0, 0, 0.5);
-    margin: 0px;
 }
 .home-aboutus-blog-faq-contactus{
     width: 85px;
