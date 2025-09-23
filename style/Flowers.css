@@ -45,7 +45,6 @@ header{
     height: 71px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: auto;
     margin-top: 33px;
 }
@@ -54,7 +53,8 @@ header{
 }
 nav ul {
     display: flex;
-    gap: 48px;  
+    gap: 70px;
+    align-items: center;
 }
 nav li {
     list-style: none;
@@ -62,7 +62,18 @@ nav li {
 nav ul a{
     text-decoration: none;
 }
-
+.cart-list{
+    height: 50px;
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-shopping{
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+}
 /* banner style start */
 
 .alawayes-fresh-flower-section{
