@@ -452,6 +452,299 @@ z-index: 1px;
     margin-left:20px;
 }
 
+@media (min-width:319px) and (max-width:364px)
+{
+/* header style start */
+header{
+    max-width:90%;
+    height: 38px;
+    margin-top:13px;
+    margin-bottom: 28px;
+}
+.hidden{
+    display: none;
+}
+nav ul {
+    display: flex;
+    height:38px;
+    margin: 0%;
+}
+.cart-list{
+    height: 38px;
+}
+/* banner style start */
+.alawayes-fresh-flower-section{
+    flex-direction: column-reverse;
+    margin-top: 0px;
+}
+.alawayes-fresh-flower-img{
+    max-width:100%;
+    max-height: 245px;
+    margin-top: 0px;
+}
+.alawayes-fresh-flower-section img {
+    width: 100%;
+}
+.alawayes-fresh-flower-textdiv{
+    max-width: 100%;
+    max-height:147px;
+    margin-top:28px;
+}
+.alawayes-fresh-flower-title{
+    font-size:1.5rem;
+}
+.alawayes-fresh-flower-parahgrap{
+    font-size: 0.850rem;
+}
+/* Our Plants style start*/
+.Our-Plants-section{
+    max-width:100%;
+    height: 1270px;
+    margin-top: 55px;
+    margin-bottom: 8.5px;
+}
+.Our-Plants-text-container{
+    max-width:100%;
+    max-height: 117px;
+    text-align: center;
+    margin-bottom:28px;
+    justify-items: center;
+}
+.Our-Plants-section-title{
+    max-width: 100%;
+    font-size:1.5rem;
+    margin: 0px;
+    margin-bottom:16px;
+}
+.Our-Plants-section-parahgrap{
+    font-size:0.850rem;
+    padding: 0px 28.6px;
+}
+.card-container{
+    grid-template-columns: repeat(2,1fr);
+    gap:10.5px 10px;
+}
+.card{
+    max-width:100%;
+    height:340.5px;
+    justify-content: center;
+}
+.Our-Plants-cards-img{
+    max-width:100%;
+    max-height:196.5px;
+}
+.Our-Plants-cards-text-btn-container{
+    max-width:100%;
+    height:0px;
+    text-align: center;
+}
+.text-Lily-Blossom{
+    font-size:1rem;
+    margin: 0px;
+    font-weight: 100;
+}
+.text-20-USD{
+    font-size:1rem;
+    margin-top: 5%;
+    margin-bottom:0px;
+}
+.Our-Plants-cards-btn{
+    padding:19px 30.5px;
+    border: none;
+    background-color: rgba(233, 90, 8, 1);
+    font-size:0.730rem;
+    color: white;
+    margin-top:19px;
+}
+/* Flower-&-Plants-Lover style */
+.Flower-and-Plants-Lover-container{
+    flex-direction: column;
+    max-width:100%px;
+    height: 648px;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+.Flower-and-Plants-Lover-img-container{
+    max-width:100%;
+    max-height:396px;
+    background-size: cover;
+    margin-bottom:18px;
+}
+.Flower-Plants-Lover-text-container{
+    max-width:100%;
+    height: 234px;
+}
+.Flower-Plants-Lover-title{
+    font-size:1.4rem;
+    margin: 0px;
+    font-weight: 700;
+}
+.Flower-Plants-Lover-title-list{
+    font-size:0.910rem;
+    padding-left:6%;
+}
+.list-margin{
+    margin-top:16px;
+}
+/* Latest  Deals style start */
+.Latest-Deals-section{
+    width:100%;
+    height: 117px;
+    justify-items: center;
+    justify-content: center;
+    margin-top:143px auto auto 51.5px; 
+}
+.Latest-Deals-title{
+    font-size:1.5rem;
+}
+.Latest-Deals-parahgrap-container{
+    max-width: 336px;
+    font-size:0.950rem ;
+}
+
+/* Bloom-Plant Ana-Plant Zabo-Plant  style start */  
+.Bloom-Plant-Ana-Plant-Zabo-Plant-container{
+    flex-direction: column;
+    max-width:100%;
+    height:645px;
+    margin: 51.5px auto;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* Bloom-Plant-Ana-Plant style start */
+.Bloom-Plant-Ana-Plant-container{
+    width:90%;
+    margin: auto;
+    margin-top:0%;
+}
+/* bloom plant style start */
+.bloom-plant{
+    max-width:300px;
+    height: 201px;
+}
+.bloom-plant-text-container{
+    max-width:300px;
+    height: 201px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.bloom-plant-text-h2{
+    font-size: 1rem;
+}
+.bloom-plant-text-a{
+    font-size: 0.800rem;
+}
+
+/*Ana-plant style start */
+.Ana-plant{
+    max-width: 300px;
+    height: 201px;
+    background-size: cover;
+}
+.Ana-plant-text-container{
+    width: 300px;
+    height: 201px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.Ana-plant-text-h2{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.Ana-plant-text-a{
+    color: white;
+    text-decoration: underline;
+    font-size:0.800rem;
+}
+/* Zabo Plant style start */
+.Zabo-Plant-container{
+width: 300px;
+height: 201px;
+background-size: cover;
+margin:auto;
+
+}
+.Zabo-Plant-text-container{
+max-width: 300px;
+height: 201px;
+background-color: rgba(0, 0, 0, 0.6);
+}
+.zabo-plant-text-h2{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.zabo-plant-text-a{
+    text-underline-offset:4px;
+    font-size: 0.800rem;
+}
+
+/*Footer style Start */
+.join-the-colorful-bunch-container{
+    width:100%;
+    height: 276px;
+    background-image:url(../image/news-letter-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join-the-colorful-bunch-rgb-container{
+    max-width: 100%;
+    height: 276px;
+    background-color:rgba(7, 51, 79, 0.4);
+    justify-items: center;
+    align-content: center;
+}
+.join-the-colorful-text{
+    color: white;
+    font-size:1.3rem;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+.email-box{
+    width:120px;
+    height: 40px;
+    border: none;
+    font-size: 0.800rem;
+    padding-left: 20px;
+}
+.Subscribe-btn{
+    width: 103px;
+    height: 42px;
+    color: white;
+    background-color:rgba(233, 90, 8, 1);
+    border: none;
+    font-size: 0.800rem; 
+}
+/* Footer Logo social logo list style start */
+.footer-logo-list-container{
+    flex-direction: column;
+    width:100%;
+    height: 700px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.logo-parah-container{
+    width: 359px;
+    height:173px;
+}
+.logo-img{
+    width:135px;
+    height:82px;
+}
+.logo-parah{
+    font-size:1.1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.social-logo-container{
+    width: 216px;
+    height: 36px;
+    margin-top: 20px;
+}
+}
 
 @media (min-width:364px) and (max-width:380px)
 {
@@ -1926,3 +2219,4 @@ background-color: rgba(0, 0, 0, 0.6);
     margin-top: 20px;
 }
 }
+
