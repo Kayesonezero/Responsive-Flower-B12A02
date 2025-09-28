@@ -522,7 +522,7 @@ nav ul {
 }
 .card-container{
     grid-template-columns: repeat(2,1fr);
-    gap:10.5px 10px;
+    gap:28.5px 10px;
 }
 .card{
     max-width:100%;
@@ -552,7 +552,7 @@ nav ul {
     padding:19px 30.5px;
     border: none;
     background-color: rgba(233, 90, 8, 1);
-    font-size:0.730rem;
+    font-size:0.980rem;
     color: white;
     margin-top:19px;
 }
